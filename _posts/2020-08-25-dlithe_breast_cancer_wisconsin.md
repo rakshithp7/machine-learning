@@ -31,16 +31,16 @@ df.shape
 
 
 
-
+```
     (699, 11)
-
+```
 
 
 
 ```python
 df.info()
 ```
-
+```
     <class 'pandas.core.frame.DataFrame'>
     RangeIndex: 699 entries, 0 to 698
     Data columns (total 11 columns):
@@ -59,7 +59,7 @@ df.info()
      10  Class                        699 non-null    int64 
     dtypes: int64(10), object(1)
     memory usage: 60.2+ KB
-    
+```  
 
 > "Bare Nuclei" comlumn is of <strong>object</strong> Dtype. Which means it has some invalid(null) values
 
@@ -71,9 +71,9 @@ df.shape
 
 
 
-
+```
     (691, 11)
-
+```
 
 
 > There were 8 duplicate rows
@@ -85,7 +85,7 @@ df.isnull().sum()
 
 
 
-
+```
     Sample code number             0
     Clump Thickness                0
     Uniformity of Cell Size        0
@@ -98,7 +98,7 @@ df.isnull().sum()
     Mitoses                        0
     Class                          0
     dtype: int64
-
+```
 
 
 
@@ -241,6 +241,7 @@ print("\nReplacing null values with integer value of mean: ", int(df["Bare Nucle
 df["Bare Nuclei"] = df["Bare Nuclei"].fillna(int(df["Bare Nuclei"].mean()))
 ```
 
+```
     Null values:  16 
     
     count    675.000000
@@ -254,7 +255,7 @@ df["Bare Nuclei"] = df["Bare Nuclei"].fillna(int(df["Bare Nuclei"].mean()))
     Name: Bare Nuclei, dtype: float64
     
     Replacing null values with integer value of mean:  3
-    
+```   
 
 <h2>Machine Learning Model - Logistic Regression</h2>
 
@@ -283,9 +284,10 @@ print ('Train set:', xtrain.shape,  ytrain.shape)
 print ('Test set:', xtest.shape,  ytest.shape)
 ```
 
+```
     Train set: (552, 9) (552,)
     Test set: (139, 9) (139,)
-    
+```   
 
 
 ```python
@@ -304,13 +306,10 @@ print("Mean Absolute Error: ", mean_absolute_error(ytest,ypred))
 print("Accuracy: ", accuracy_score(ytest,ypred))
 ```
 
+```
     Mean Absolute Error:  0.05755395683453238
     Accuracy:  0.9712230215827338
-    
+```    
 
 # Highest Accuracy:  0.9784172661870504
 
-
-```python
-
-```
