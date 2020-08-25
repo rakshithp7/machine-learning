@@ -2,9 +2,10 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/zakim.jpg"
+  image: "/images/about.jpeg"
 ---
 
-I'm a senior data scientist who excels at data wrangling, machine learning, exploratory analysis, and data visualizations.
+I'm a student at NMAM Institute of Technology in my Final Year of College.
+My Interests lie in Machine Learning, Web Development and Python software development. 
 
-Etc, etc, etc
+This website is primarily to display the assignments given during the online Internship with DLithe.
