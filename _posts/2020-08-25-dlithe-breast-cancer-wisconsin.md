@@ -1,15 +1,15 @@
 ---
-title: "Classification on Breast Cancer Wisonsin dataset"
+title: "Classification on Breast Cancer Wisconsin dataset"
 date: 2020-08-25
 tags: [dlithe internship, data science, logistic regressiona]
 header:
   image: "/images/default.jpg"
-excerpt: "Breast Cancer Wisonsin data set from UCI machine learning Repository and build a classification model."
+excerpt: "Breast Cancer Wisconsin data set from UCI machine learning Repository and build a classification model."
 mathjax: "true"
 ---
 
 Question 1<br>
-Use the Breast Cancer Wisonsin data set from UCI machine learning Repository and build a classification model.
+Use the Breast Cancer Wisconsin data set from UCI machine learning Repository and build a classification model.
 
 Here you have 16 missing values which you will have to replace with suitable value(mean/mode/median/0).
 you may have to drop some less important feature before processing ahead for developing a prediction model.
