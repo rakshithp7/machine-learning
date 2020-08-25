@@ -35,7 +35,10 @@ df=pd.read_csv(r"D:\Learning\DLithe-ML\Assignment\breast-cancer-wisconsin.csv")
 ```python
 df.shape
 ```
+
     (699, 11)
+
+
 ```python
 df.info()
 ```
