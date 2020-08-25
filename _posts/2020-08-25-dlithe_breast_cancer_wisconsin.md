@@ -79,7 +79,7 @@ df.shape
 
 
 
-`    (691, 11)`
+    `(691, 11)`
 
 
 
@@ -92,7 +92,7 @@ df.isnull().sum()
 
 
 
-
+```
     Sample code number             0
     Clump Thickness                0
     Uniformity of Cell Size        0
@@ -105,7 +105,7 @@ df.isnull().sum()
     Mitoses                        0
     Class                          0
     dtype: int64
-
+```
 
 
 
