@@ -37,9 +37,9 @@ df.shape
 ```
 
 
+_Output_
 
-
-(699, 11)
+    (699, 11)
 
 
 
@@ -48,24 +48,24 @@ df.shape
 df.info()
 ```
 
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 699 entries, 0 to 698
-Data columns (total 11 columns):
- #   Column                       Non-Null Count  Dtype 
----  ------                       --------------  ----- 
- 0   Sample code number           699 non-null    int64 
- 1   Clump Thickness              699 non-null    int64 
- 2   Uniformity of Cell Size      699 non-null    int64 
- 3   Uniformity of Cell Shape     699 non-null    int64 
- 4   Marginal Adhesion            699 non-null    int64 
- 5   Single Epithelial Cell Size  699 non-null    int64 
- 6   Bare Nuclei                  699 non-null    object
- 7   Bland Chromatin              699 non-null    int64 
- 8   Normal Nucleoli              699 non-null    int64 
- 9   Mitoses                      699 non-null    int64 
- 10  Class                        699 non-null    int64 
-dtypes: int64(10), object(1)
-memory usage: 60.2+ KB
+    <class 'pandas.core.frame.DataFrame'>
+    RangeIndex: 699 entries, 0 to 698
+    Data columns (total 11 columns):
+     #   Column                       Non-Null Count  Dtype 
+    ---  ------                       --------------  ----- 
+     0   Sample code number           699 non-null    int64 
+     1   Clump Thickness              699 non-null    int64 
+     2   Uniformity of Cell Size      699 non-null    int64 
+     3   Uniformity of Cell Shape     699 non-null    int64 
+     4   Marginal Adhesion            699 non-null    int64 
+     5   Single Epithelial Cell Size  699 non-null    int64 
+     6   Bare Nuclei                  699 non-null    object
+     7   Bland Chromatin              699 non-null    int64 
+     8   Normal Nucleoli              699 non-null    int64 
+     9   Mitoses                      699 non-null    int64 
+     10  Class                        699 non-null    int64 
+    dtypes: int64(10), object(1)
+    memory usage: 60.2+ KB
     
 
 > "Bare Nuclei" comlumn is of <strong>object</strong> Dtype. Which means it has some invalid(null) values
