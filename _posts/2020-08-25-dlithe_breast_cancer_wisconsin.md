@@ -8,7 +8,7 @@ excerpt: "Breast Cancer Wisonsin data set from UCI machine learning Repository a
 mathjax: "true"
 ---
 
-Question 1
+Question 1<br>
 Use the Breast Cancer Wisonsin data set from UCI machine learning Repository and build a classification model.
 
 Here you have 16 missing values which you will have to replace with suitable value(mean/mode/median/0).
@@ -35,15 +35,7 @@ df=pd.read_csv(r"D:\Learning\DLithe-ML\Assignment\breast-cancer-wisconsin.csv")
 ```python
 df.shape
 ```
-
-
-_Output:_
-
     (699, 11)
-
-
-
-
 ```python
 df.info()
 ```
@@ -79,7 +71,7 @@ df.shape
 
 
 
-    `(691, 11)`
+    (691, 11)
 
 
 
@@ -92,7 +84,7 @@ df.isnull().sum()
 
 
 
-```
+
     Sample code number             0
     Clump Thickness                0
     Uniformity of Cell Size        0
@@ -105,7 +97,7 @@ df.isnull().sum()
     Mitoses                        0
     Class                          0
     dtype: int64
-```
+
 
 
 
@@ -316,8 +308,3 @@ print("Accuracy: ", accuracy_score(ytest,ypred))
     
 
 # Highest Accuracy:  0.9784172661870504
-
-
-```python
-
-```
