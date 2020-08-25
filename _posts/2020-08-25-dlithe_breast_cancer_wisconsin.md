@@ -3,7 +3,7 @@ title: "Classification on Breast Cancer Wisonsin dataset"
 date: 2020-08-25
 tags: [dlithe internship, data science, logistic regressiona]
 header:
-  image: ""
+  image: "/images/default.jpg"
 excerpt: "Breast Cancer Wisonsin data set from UCI machine learning Repository and build a classification model."
 mathjax: "true"
 ---
