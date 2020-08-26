@@ -1,7 +1,7 @@
 ---
 title: "Classification on Breast Cancer Wisconsin dataset"
 date: 2020-08-25
-tags: [dlithe internship, data science, logistic regressiona]
+tags: [dlithe internship, data science, logistic regression]
 header:
   image: "/images/default.jpg"
 excerpt: "Breast Cancer Wisconsin data set from UCI machine learning Repository and build a classification model."
