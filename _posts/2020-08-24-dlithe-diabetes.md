@@ -1,18 +1,18 @@
 ---
-title: "Classification on Breast Cancer Wisconsin dataset"
+title: "Binary classification on PIMA Indian Dataset"
 date: 2020-08-24
 tags: [dlithe internship, data science, decision tree classifier]
 header:
   image: "/images/default.jpg"
-excerpt: "Breast Cancer Wisconsin data set from UCI machine learning Repository and build a classification model."
+excerpt: "This problem is comprised of 768 observations of medical details for Pima indians patents. The goal is to predict whether or not a given female patient will contract diabetes based."
 mathjax: "true"
 ---
 
-This problem is comprised of 768 observations of medical details for Pima indians patents. The records describe instantaneous measurements taken from the patient such as their age, the number of times pregnant and blood workup. All patients are women aged 21 or older. All attributes are numeric, and their units vary from attribute to attribute.
-Each record has a class value that indicates whether the patient suffered an onset of diabetes within 5 years of when the measurements were taken (1) or not (0).
-The goal is to predict whether or not a given female patient will contract diabetes based on features such as BMI, age, and number of pregnancies. Therefore, it is a binary classification problem. A target value of 0 indicates that the patient does not have diabetes, while a value of 1 indicates that the patient does have diabetes.
-There may be some missing values with which you have to deal with.
-Build a prediction Algorithm using Decision Tree 
+This problem is comprised of 768 observations of medical details for Pima indians patents. The records describe instantaneous measurements taken from the patient such as their age, the number of times pregnant and blood workup. All patients are women aged 21 or older. All attributes are numeric, and their units vary from attribute to attribute.<br>
+Each record has a class value that indicates whether the patient suffered an onset of diabetes within 5 years of when the measurements were taken (1) or not (0).<br>
+The goal is to predict whether or not a given female patient will contract diabetes based on features such as BMI, age, and number of pregnancies. Therefore, it is a binary classification problem. A target value of 0 indicates that the patient does not have diabetes, while a value of 1 indicates that the patient does have diabetes.<br>
+There may be some missing values with which you have to deal with.<br>
+Build a prediction Algorithm using Decision Tree.
 
 
 ```python
@@ -538,7 +538,7 @@ print(df["Outcome"].value_counts())
 ```
 
 
-![png](dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_17_0.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_17_0.png)
 
 
     0    500
@@ -556,35 +556,35 @@ for i in a:
 ```
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_19_0.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_19_0.png)
 
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_19_1.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_19_1.png)
 
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_19_2.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_19_2.png)
 
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_19_3.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_19_3.png)
 
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_19_4.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_19_4.png)
 
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_19_5.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_19_5.png)
 
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_19_6.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_19_6.png)
 
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_19_7.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_19_7.png)
 
 
 No clear conclusions can be drawn from the above swarmplots<br>
@@ -614,7 +614,7 @@ for i in a:
     
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_21_1.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_21_1.png)
 
 
     count    768.000000
@@ -630,7 +630,7 @@ for i in a:
     
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_21_3.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_21_3.png)
 
 
     count    768.000000
@@ -646,7 +646,7 @@ for i in a:
     
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_21_5.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_21_5.png)
 
 
     count    768.000000
@@ -662,7 +662,7 @@ for i in a:
     
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_21_7.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_21_7.png)
 
 
     count    768.000000
@@ -678,7 +678,7 @@ for i in a:
     
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_21_9.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_21_9.png)
 
 
     count    768.000000
@@ -694,7 +694,7 @@ for i in a:
     
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_21_11.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_21_11.png)
 
 
     count    768.000000
@@ -710,7 +710,7 @@ for i in a:
     
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_21_13.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_21_13.png)
 
 
     count    768.000000
@@ -726,7 +726,7 @@ for i in a:
     
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_21_15.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_21_15.png)
 
 
 From the above distplots, we can make the following conclusions:<br>
@@ -817,7 +817,7 @@ plt.show()
     
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_25_1.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_25_1.png)
 
 
     ----------------------------------------
@@ -825,7 +825,7 @@ plt.show()
     
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_25_3.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_25_3.png)
 
 
 <h2>Machine Learning model - Decision Tree</h2>
@@ -881,7 +881,7 @@ plt.show()
 ```
 
 
-![png](DLithe-ASSIGNMENT-diabetes_files/DLithe-ASSIGNMENT-diabetes_32_0.png)
+![png]({{ site.url }}{{ site.baseurl }}/images/dlithe-diabetes/DLithe-ASSIGNMENT-diabetes_32_0.png)
 
 
 
@@ -904,9 +904,4 @@ print(confusion_matrix(ytest,ypred))
      [ 21  60]]
     
 
-# Highest Accuracy:  0.7662337662337663
-
-
-```python
-
-```
+### Highest Accuracy:  0.7662337662337663
