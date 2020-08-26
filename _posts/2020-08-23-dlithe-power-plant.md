@@ -4,7 +4,7 @@ date: 2020-08-23
 tags: [dlithe internship, data science, linear regression]
 header:
   image: "/images/default.jpg"
-excerpt: "Power generation is a complex process, and understanding and predicting power output is an important element in managing a plant and its connection to the power grid."
+excerpt: "Power generation is a complex process, and understanding and predicting power output is an important element in managing a plant."
 mathjax: "true"
 ---
 

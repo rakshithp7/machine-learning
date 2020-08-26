@@ -4,7 +4,7 @@ date: 2020-08-24
 tags: [dlithe internship, data science, decision tree classifier]
 header:
   image: "/images/default.jpg"
-excerpt: "This problem is comprised of 768 observations of medical details for Pima indians patents. The goal is to predict whether or not a given female patient will contract diabetes based."
+excerpt: "The goal is to predict whether or not a given female patient will contract diabetes based on certain features."
 mathjax: "true"
 ---
 
